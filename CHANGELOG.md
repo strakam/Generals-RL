@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.6.0](https://github.com/strakam/Generals-RL/compare/v0.5.1...v0.6.0) (2024-10-06)
+
+
+### 🚀 Features
+
+* Add new registry system ([faeffe9](https://github.com/strakam/Generals-RL/commit/faeffe95b69eb37964ce00777e0be15c59b16559))
+* Finish registry system ([977dec5](https://github.com/strakam/Generals-RL/commit/977dec5d8f4df3fe671a8aa0e46dfc49935debd1))
+
+
+### 🐛 Bug Fixes
+
+* Add ABC baseclass to abstrat classes so that they cannot be instantiated ([f1991fb](https://github.com/strakam/Generals-RL/commit/f1991fbce30fb62550c0b37a8174129f49dc32c4))
+* Add missing requirements ([8c63062](https://github.com/strakam/Generals-RL/commit/8c63062b1ca60591e35f36d368eb28da4339aec3))
+
+
+### 🛠️ Refactor
+
+* Add abstract command property to event handlers ([cde3f45](https://github.com/strakam/Generals-RL/commit/cde3f45a8e2106ef544258371e881450ddbad36a))
+* Add Channels class ([40f70bc](https://github.com/strakam/Generals-RL/commit/40f70bcbb83a98fbc50f0de6c5187ef3a9c040a4))
+* Add Enums for keybindings ([0e98e1f](https://github.com/strakam/Generals-RL/commit/0e98e1f866392b7629ae398de271fae5f45c5cb0))
+* Add EventHandler static constroctor ([252020d](https://github.com/strakam/Generals-RL/commit/252020d9efe7a50a0fb09e51a5209a1c3f711b92))
+* Add FoV toggle to all modes ([a2afa3b](https://github.com/strakam/Generals-RL/commit/a2afa3b0b999de930a16a6d624bd2290342e4a04))
+* Add GuiMode enum ([6b2e295](https://github.com/strakam/Generals-RL/commit/6b2e295d60494558ed3e6f3a13366ddcbc9ef881))
+* Add strategy pattern for event handlers ([7a9c526](https://github.com/strakam/Generals-RL/commit/7a9c526a1380be3646b01bb4bf610b870a3f6585))
+* Add types in renderer ([bc3f7b0](https://github.com/strakam/Generals-RL/commit/bc3f7b0df8cd1f67cd2e39f730e30b57b26b0690))
+* additional fix ([7a9c526](https://github.com/strakam/Generals-RL/commit/7a9c526a1380be3646b01bb4bf610b870a3f6585))
+* Additional include to fix crashing ([1dc144a](https://github.com/strakam/Generals-RL/commit/1dc144af6479508331df4534de6943a0d3a20a73))
+* Better check for replay commands handling ([557e97a](https://github.com/strakam/Generals-RL/commit/557e97af6c6e1eb98a3326cc4dec6c039540489b))
+* Fix direction types ([a4713b0](https://github.com/strakam/Generals-RL/commit/a4713b0d8f31be3b0e366a62f3458645ec31d00f))
+* Fix referencing wrong variables ([566b586](https://github.com/strakam/Generals-RL/commit/566b58612fde07d19143e6510e432bb430cbcc1c))
+* Fix wrong class initialization in handlers ([7a9c526](https://github.com/strakam/Generals-RL/commit/7a9c526a1380be3646b01bb4bf610b870a3f6585))
+* handle quit better ([7a9c526](https://github.com/strakam/Generals-RL/commit/7a9c526a1380be3646b01bb4bf610b870a3f6585))
+* Improve code style ([38b0266](https://github.com/strakam/Generals-RL/commit/38b0266f60eb830f1bf32913dfec77c1481b0aba))
+* Improve handle events ([4258b79](https://github.com/strakam/Generals-RL/commit/4258b79a607e8baa76c25279df9bd15202ebbbe6))
+* Include enums, remove unused things ([3aafe7f](https://github.com/strakam/Generals-RL/commit/3aafe7fb84d1f8f587b9aea2aef9ed6f524bf2f3))
+* Instantiate event handler only once on GUI creation ([4921188](https://github.com/strakam/Generals-RL/commit/49211883b640c05ceb47b711e4c7a0f7f4a8d42e))
+* little fix ([7a9c526](https://github.com/strakam/Generals-RL/commit/7a9c526a1380be3646b01bb4bf610b870a3f6585))
+* Make default default reward methods static ([32e8cf7](https://github.com/strakam/Generals-RL/commit/32e8cf7daf73199027f2d802d1a580b85c31fee2))
+* Remake folder structure ([722b1e9](https://github.com/strakam/Generals-RL/commit/722b1e9d2d2309cb8fa18e75dc3509e57c889bd8))
+* Remove unused imports ([61f276c](https://github.com/strakam/Generals-RL/commit/61f276cd36d07dc4cfcd0cd28b8ea1466b011dd3))
+* Remove unused mode attribute ([aaa68eb](https://github.com/strakam/Generals-RL/commit/aaa68eba2343a0dbfcc5bf4f6f82923c9515e2ab))
+* Rename Observation item visibile_cells to visible_cells ([aa196ac](https://github.com/strakam/Generals-RL/commit/aa196acf14a99c2648b46d590c4dbed114534f91))
+* Use match clause in grid setter ([c6efed0](https://github.com/strakam/Generals-RL/commit/c6efed02076bac7a7db93b49f285db4e19a96af7))
+
 ## [0.5.1](https://github.com/strakam/Generals-RL/compare/v0.5.0...v0.5.1) (2024-10-01)
 
 
