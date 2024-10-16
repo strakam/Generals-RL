@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/strakam/generals-bots/compare/v1.0.0...v1.0.1) (2024-10-16)
+
+
+### 🐛 Bug Fixes
+
+* Make truncation as a parameter to the env ([8af020e](https://github.com/strakam/generals-bots/commit/8af020e362acf016c7079ce3bc96d6459e2b470e))
+* Update complete example ([e588cfa](https://github.com/strakam/generals-bots/commit/e588cfaff1056bbbbfb62b76846195936dc11b52))
+
 ## [1.0.0](https://github.com/strakam/generals-bots/compare/v0.5.1...v1.0.0) (2024-10-14)
 
 
